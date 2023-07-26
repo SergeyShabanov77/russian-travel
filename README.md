@@ -5,4 +5,6 @@ Alt-H1
 
 В проекте применена адаптивная вёрстка под разные разрешения устройств.
 
-Ссылка на GitHub Pages
+Ссылка на GitHub Pages 
+
+https://sergeyshabanov77.github.io/russian-travel/
