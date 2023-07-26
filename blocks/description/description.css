@@ -1,0 +1,23 @@
+.description {
+  display: block;
+  max-width: 984px;
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.description {
+  max-width: 928px;
+}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .description {
+  max-width: 768px;
+}
+}
+
+@media screen and (max-width: 425px) {
+    .description {
+  max-width: 320px;
+}
+}
