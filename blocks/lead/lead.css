@@ -1,16 +1,26 @@
 .lead {
   display: block;
   margin: 0 auto 92px auto;
+  padding: 0;
+  max-width: calc(100% - 296px);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.lead {
+  max-width: calc(100% - 96px);
+}
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
 .lead {
   margin: 0 auto 88px auto;
+  max-width: 100%;
 }
 }
 
 @media screen and (max-width: 425px) {
   .lead {
   margin: 0 auto 64px auto;
+  max-width: 100%;
 }
 }

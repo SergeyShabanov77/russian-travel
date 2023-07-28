@@ -2,12 +2,11 @@
   width: 176px;
   height: 52px;
   display: block;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 425px) {
-.header__logo {
-  margin: 0;
-  padding: 0;
+.header__logo-pic {
   width: 142px;
   height: 42px;
 }
