@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 425px) {
 .footer__links-list {
-  max-width: 100%
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 24px;
