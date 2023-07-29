@@ -5,16 +5,13 @@
   justify-content: flex-start;
   flex-flow: row wrap;
   align-items: flex-start;
-  row-gap: 24px;
-  column-gap: 16px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 .footer {
   margin: 0 16px 24px 16px;
-  max-width: 288px;
+  max-width: calc(100% - 48px);
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 48px;
 }
 }

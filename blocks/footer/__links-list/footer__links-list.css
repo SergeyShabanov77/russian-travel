@@ -7,11 +7,12 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
 .footer__links-list {
+  margin-bottom: 48px;
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 24px;
+  row-gap: 32px;
 }
 }
